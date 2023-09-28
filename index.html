@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<head>
+<title> 🌱 Ɩą ʄıŋƈą ɖɛ ɧơყ 🌱 </title>
+<meta name="description" content="exploraciones digitales entorno a la ruralidad">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nova+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://img.freepik.com/foto-gratis/imagen-primer-plano-hierba-verde-fresca-primavera_1232-2759.jpg?size=626&ext=jpg">
+
+
+
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Feb 1, 2024 00:00:00").getTime();
+  
+  // Update the count down every 1 second
+  var x = setInterval(function() {
+  
+    // Get today's date and time
+    var now = new Date().getTime();
+      
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+      
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+      
+    // If the count down is over, write some text 
+    if (distance < 0) {
+      clearInterval(x);
+      document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+  </script>
+
+<body>
+
+  <div class="fullscreen">
+    <div class="video">
+      <div class="vimeo-wrapper">
+        <iframe
+          src="https://player.vimeo.com/video/869005139?h=f619f6bfe0&autoplay=1&quality=720p&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0&background=1"
+          width="854"
+          height="480"
+          frameborder="0"
+          allow="autoplay; fullscreen= "
+          allign="center; "
+        ></iframe>
+      </div>
+    </div>
+
+  <p id="demo"></p>
+
+ 
+
+</body>
+
+
+
+<footer>
+    <div class="VRN">
+        <a href="https://virreina.space/" target="_blank">
+          <img src="./assets/[VRN]Logos-31.svg"
+          alt="VRN" height="100px" width="" ;="">
+        </a>
+      </div>
+    
+    
+      <div class="WRONG">
+        <a href="https://thewrong.org/" target="_blank">
+          <img src="./assets/WRONG_LOGO_WHITE.png"
+          alt="VRN" height="100px" width="" ;="">
+        </a>
+      </div>
+</footer>
+
+
+</html>
