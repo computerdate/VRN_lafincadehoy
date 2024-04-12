@@ -190,20 +190,21 @@ p {
 @media screen and (max-width: 800px) {
 
 .WRONG {
-  float: left;
+  float: right;
   padding: 5px;
   position: fixed;
-  top: 10%;
+  bottom: 15%;
   left: 2%;
   font-size: 1.5vw;
   z-index: 100;
+  max-width: 3;
 }
 
 .VRN {
   float: left;
   padding: 0%;
   position: fixed;
-  top: 0%;
+  bottom: -10%;
   left: 0%;
   font-size: 1.5vw;
   max-width: fit-content;

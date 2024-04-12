@@ -227,28 +227,32 @@
         z-index: 100;
       }
         
+
+
   
-  @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+
   
-  .WRONG {
-    float: left;
-    padding: 5px;
-    position: fixed;
-    top: 10%;
-    left: 2%;
-    font-size: 1.5vw;
-    z-index: 100;
-  }
-  
-  .VRN {
-    float: left;
-    padding: 0%;
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    font-size: 1.5vw;
-    max-width: fit-content;
-    height: fit-content;
-    z-index: 100;
-  }
+    
+    p {
+      display: none;
+      }
+    
+    footer{
+        display: none;
+    }
+
+
+body{
+background-image: url(./assets/About_Phone.png);
+background-size: contain;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: none;
+width: 70%;
+z-index: -10;
+}
+    
 }
