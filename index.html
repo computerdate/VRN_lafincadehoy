@@ -16,7 +16,7 @@
 <link rel="shortcut icon" href="https://images.emojiterra.com/google/android-pie/512px/1f331.png">
 
 
-
+<!--
 <script>
   // Set the date we're counting down to
   var countDownDate = new Date("Apr 15, 2024 00:00:00").getTime();
@@ -47,14 +47,46 @@
     }
   }, 1000);
   </script>
+-->
+
+<script>
+  function menuOnClick() {
+  document.getElementById("menu-bar").classList.toggle("change");
+  document.getElementById("nav").classList.toggle("change");
+  document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+</script>
+
+
+<header>
+  <div id="menu">
+    <div id="menu-bar" onclick="menuOnClick()">
+      <img src="./assets/[VRN]Logos-28.svg"
+          alt="VRN" height="120px" width="" ;="">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="xpo.html">LA FINCA DE HOY</a></li>
+        <li><a href="artistas.html">Artistas</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav> 
+  </div>
+  
+  <div class="menu-bg" id="menu-bg"></div>
+</header>
 
 <body>
 
+  
   <div class="fullscreen">
     <div class="video">
       <div class="vimeo-wrapper">
         <iframe
-          src="https://player.vimeo.com/video/869005139?h=f619f6bfe0&autoplay=1&quality=720p&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0&background=1"
+          src="https://player.vimeo.com/video/933501502?h=faeb5ada66&autoplay=1&quality=720p&loop=1&title=0&byline=0&portrait=0&controls=0&playsinline=0&background=1"
           width="854"
           height="480"
           frameborder="0"
@@ -63,6 +95,7 @@
         ></iframe>
       </div>
     </div>
+
 
   <p id="demo"></p>
 
@@ -75,8 +108,8 @@
 <footer>
     <div class="VRN">
         <a href="https://virreina.space/" target="_blank">
-          <img src="./assets/[VRN]Logos-31.svg"
-          alt="VRN" height="80px" width="" ;="">
+          <img src="./assets/[VRN]Logos-19.svg"
+          alt="VRN" height="240px" width="" ;="">
         </a>
       </div>
     
